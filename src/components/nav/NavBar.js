@@ -6,13 +6,10 @@ export const NavBar = () => {
     return (
         <ul className="navbar">
             <li className="navbar__item">
-                Navigation link
-            </li>
-            <li className="navbar__item">
                 <Link className="nav-link" to="/quotes">Explore Quotes</Link>
             </li>
             <li className="navbar__item">
-                Navigation link
+                <Link className="nav-link" to="/profile">Profile</Link>
             </li>
             {
                 (localStorage.getItem("ql_token") !== null) ?
