@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
 /*Typography
 --------------------------------------------------------------*/
+a:hover{
+	text-decoration:none;
+}
 
 body, button, input, select, textarea {
     color: #404040;

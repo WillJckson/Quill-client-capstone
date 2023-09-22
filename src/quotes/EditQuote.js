@@ -47,7 +47,7 @@ const EditQuote = () => {
 
 console.log(quote)
     return (
-        <div>
+        <div className="container edit-quote">
             <h2>Edit Quote</h2>
             <input
                 type="text"
@@ -68,7 +68,8 @@ console.log(quote)
                 </option>
                 ))}
             </select>
-            <button onClick={handleUpdateQuote}>Update Quote</button>
+            <br/>
+            <button onClick={handleUpdateQuote} className="button update">Update Quote</button>
         </div>
     );
 };

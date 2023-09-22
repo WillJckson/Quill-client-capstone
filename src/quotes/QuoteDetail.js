@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { getQuote } from "../managers/QuotesManager";
-
+import './quotes.css'
 const QuoteDetail = () => {
     const { id } = useParams();
     const [quote, setQuote] = useState(null);
@@ -24,8 +24,7 @@ const QuoteDetail = () => {
     }, [id]);
 
     return (
-        <div>
-            <h2>Quote Details</h2>
+        <div id="quote-view">
             {quote ? (
                 <>
                     <p>{quote.text}</p>

@@ -1,0 +1,62 @@
+
+/* Background and Text Colors */
+body {
+    background-color: #ffffff; /* White */
+    color: #000000; /* Black */
+    font-family: Arial, sans-serif; /* Choose a readable font */
+}
+
+/* Header Styles */
+h1 {
+    color: #d2b48c; /* Tan/Khaki */
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+/* Link Styles */
+a {
+    color: #d2b48c; /* Tan/Khaki */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* List Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #d2b48c; /* Tan/Khaki */
+    background-color: #ffffff; /* White */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #d2b48c;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-right: 20px;
+    border: 1px solid #d2b48c;
+}
+
+.button:hover {
+    background-color: #333333; /* Darker gray on hover */
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}

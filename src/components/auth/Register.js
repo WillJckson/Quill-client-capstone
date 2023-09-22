@@ -30,6 +30,7 @@ export const Register = () => {
                     if ("token" in res) {
                         localStorage.setItem("ql_token", res.token)
                         navigate("/home")
+                        window.location.reload()
                     }
                 })
         } else {

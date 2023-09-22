@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { getQuotes } from "../managers/QuotesManager";
-
+import "./quotes.css"
 const QuotesList = () => {
     const [quotes, setQuotes] = useState([]);
 
@@ -12,12 +12,12 @@ const QuotesList = () => {
     return (
         <div>
             <h2>Explore Quotes</h2>
-            <ul>
+            <ul className="quote-list">
                 {quotes.map((quote) => (
-                    <li key={quote.id}>
+                    <li className="quote" key={quote.id}>
                         <p>{quote.text}</p>
                         <p>- {quote.author}</p>
-                        <Link to={`/quotes/${quote.id}`}>View</Link>
+                        <Link to={`/quotes/${quote.id}`} className="view-quote-link">View</Link>
                     </li>
                 ))}
             </ul>

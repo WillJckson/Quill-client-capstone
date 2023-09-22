@@ -1,0 +1,92 @@
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333333;
+    text-align: center;
+}
+
+.quote {
+    flex: 0 0 200px;
+    margin: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.quote-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#quote-view {
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    /* Add margin-top to space out the set view */
+    margin-bottom: 20px;
+    /* Add margin-bottom to space out the set view */
+}
+.view-quote-link:hover{
+    text-decoration: none;
+}
+.quote-view-details {
+    margin-left: 20px;
+}
+
+.quote-view-info {
+    display: flex;
+    flex-direction: column;
+    /* Change flex-direction to column */
+    align-items: center;
+    /* Center align the content horizontally */
+    margin-bottom: 20px;
+}
+
+.quote-view-label {
+    font-weight: bold;
+    margin-right: 5px;
+    color: #333333; /* quote the label text color to match the theme */
+    font-family: "Arial", sans-serif; /* quote the font family for the label */
+}
+
+.quote-view-value {
+    font-weight: normal;
+    color: #888888; /* quote the value text color to match the theme */
+    font-family: "Arial", sans-serif; /* quote the font family for the value */
+}
+
+
+.quote-view-buttons {
+    display: flex;
+    flex-direction: column-reverse;
+    /* Change flex-direction to column */
+    align-items: center;
+    /* Center align the content horizontally */
+}
+
+input,select{
+    height: 35px;
+    margin-right: .5rem;
+
+}
+
+.edit-quote,
+.create-quote{
+    text-align: center;
+}
+
+
+
+.button.update,
+.button.create{
+    margin-top: 1rem;
+}
+

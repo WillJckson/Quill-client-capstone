@@ -21,6 +21,7 @@ export const Login = () => {
                 if ("valid" in res && res.valid && "token" in res) {
                     localStorage.setItem("ql_token", res.token)
                     navigate("/home")
+                    window.location.reload()
                 }
                 else {
                     invalidDialog.current.showModal()
@@ -49,7 +50,7 @@ export const Login = () => {
                     <fieldset style={{
                         textAlign: "center"
                     }}>
-                        <button className="btn btn-1 btn-sep icon-send" type="submit">Sign In</button>
+                        <button className="button" type="submit">Sign In</button>
                     </fieldset>
                 </form>
             </section>

@@ -4,7 +4,7 @@ import { NavBar } from "./components/nav/NavBar"
 
 export const Quill = () => (
     <>
-        <NavBar />
+    {localStorage.getItem("ql_token") && <NavBar />}
         <ApplicationViews />
     </>
 )

@@ -68,6 +68,8 @@ function CreateQuoteForm() {
     };
 
     return (
+        <div className="container create-quote">
+        <h2>New Quote</h2>
         <form onSubmit={handleSubmit}>
             <label htmlFor="quote-text">Quote Text:</label>
             <input
@@ -102,9 +104,10 @@ function CreateQuoteForm() {
                     </option>
                 ))}
             </select>
-
-            <button type="submit">Create Quote</button>
+            <br/>
+            <button type="submit" className="button create">Create Quote</button>
         </form>
+        </div>
     );
 }
 
