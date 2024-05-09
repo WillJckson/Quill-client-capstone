@@ -8,6 +8,7 @@ import Profile from "../profile/Profile";
 import EditQuote from "../quotes/EditQuote";
 import CreateQuoteForm from "../quotes/CreateQuote";
 import { HomePage } from "../components/home/HomePage.js";
+// import { SearchBar } from "../components/search/SearchBar.js"
 export const ApplicationViews = () => {
     return (
         <>

@@ -31,3 +31,8 @@
     background-color: #000000;
     color: white;
 }
+
+/* Add this style to change the background color of navbar buttons on hover */
+.navbar__item:hover {
+    background-color: #333333; /* Change to the desired hover color */
+}
